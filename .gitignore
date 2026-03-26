@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data & model files (too large for git)
+*.zip
+*.pth
+*.pkl
+*.h5
+*.pt
+VOCdata/
+VOCdevkit/
+
+# OS
+.DS_Store
+
+# Temp scripts
+read_pdf.py
+read_pdf.ipynb
