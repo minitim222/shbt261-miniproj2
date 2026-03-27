@@ -1,0 +1,6 @@
+{
+  "A) Baseline (aug+CE+pretrain)": 0.24168482412827633,
+  "B) No augmentation": 0.2408770720110602,
+  "C) Dice loss": 0.28148615145397987,
+  "D) Scratch backbone": 0.027291500879189128
+}

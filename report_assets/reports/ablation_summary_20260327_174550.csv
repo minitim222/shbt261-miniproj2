@@ -1,0 +1,5 @@
+variant,miou
+A_baseline_aug_ce_pretrain_30ep,0.24168482412827633
+B_no_augmentation,0.2408770720110602
+C_dice_loss,0.28148615145397987
+D_scratch_backbone,0.027291500879189128
