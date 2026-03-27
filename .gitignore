@@ -30,3 +30,16 @@ VOCdevkit/
 # Temp scripts
 read_pdf.py
 read_pdf.ipynb
+
+# Local memory / notes
+MEMORY.md
+
+# Report and draft artifacts (keep repo training-focused)
+project2_report*
+project2_report_draft.md
+report_assets/
+generate_project2_report.py
+generate_project2_report_tex.py
+Mini-Project 2*.pdf
+shbt261_project*_report_*.pdf
+shbt261_project*_report_*.docx

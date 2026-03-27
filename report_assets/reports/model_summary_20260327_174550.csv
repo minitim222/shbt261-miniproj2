@@ -1,4 +1,0 @@
-model,pixel_accuracy,miou,dice
-unet_scratch_30ep,0.7398,0.047,0.058
-deeplabv3_pretrained_30ep,0.6966,0.2417,0.3636
-sam2_zeroshot,0.9063,0.6392,0.7625

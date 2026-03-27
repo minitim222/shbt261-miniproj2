@@ -1,18 +1,22 @@
 # SHBT261 Mini Project 2
 
-Semantic segmentation comparison on Pascal VOC 2007 using:
-- U-Net (trained from scratch)
+Clean training-focused repository for semantic segmentation on Pascal VOC 2007.
+
+## Models
+
+- U-Net (from scratch)
 - DeepLabV3+ (ImageNet-pretrained backbone)
-- SAM2 (zero-shot)
+- SAM2 (zero-shot baseline)
 
 ## Repository Contents
 
-- `main.ipynb`: Main notebook with full experimental pipeline (training, evaluation, plots, and report bundle export).
-- `project2_report.pdf`: Final compiled report.
-- `project2_report.tex`: LaTeX source for the final report.
-- `generate_project2_report.py`: Markdown report draft generator from `report_assets`.
-- `generate_project2_report_tex.py`: LaTeX report generator from `report_assets`.
-- `report_assets/`: Figures, metrics, and report JSON/CSV artifacts used in the report.
+- `main.ipynb`: Main end-to-end notebook for data loading, model training, validation, and comparison.
+
+## Quick Start
+
+1. Open `main.ipynb`.
+2. Run cells top-to-bottom.
+3. Ensure dataset paths are set correctly in the notebook.
 
 ## Core Results
 
@@ -22,16 +26,7 @@ Semantic segmentation comparison on Pascal VOC 2007 using:
 | DeepLabV3+ (pretrained) | 0.6966 | 0.2417 | 0.3636 |
 | SAM2 (zero-shot) | 0.9063 | 0.6392 | 0.7625 |
 
-## Reproduce Report PDF
-
-From the repository root:
-
-```bash
-pdflatex -interaction=nonstopmode project2_report.tex
-pdflatex -interaction=nonstopmode project2_report.tex
-```
-
 ## Notes
 
 - Experiments were run in Google Colab on NVIDIA A100.
-- Validation protocol follows Pascal VOC mask conventions with ignore label 255.
+- Validation follows Pascal VOC mask conventions (ignore label 255).
